@@ -168,7 +168,7 @@ i[class^="icon-"]{
 .icon-wo-ite{
     background: url(./../images/wo-ite.png) no-repeat center;
 }
-.dash .db:hover[data-id^='Work-Items'] .icon-wo-ite{
+.dash .db:hover[data-id^='work-items'] .icon-wo-ite{
     background: url(./../images/wo-ite-w.png) no-repeat center;
     background-size: 90px 83px;
 }
