@@ -151,6 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', end
 .dash .db:hover p, .dash .db:hover h4,
 .dash .db:hover~.bg p {
     color: #fff;
+    border-color: #fff;
 }
 i[class^="icon-"]{
     display: inherit;
@@ -476,3 +477,6 @@ span.iconWork-communication{
 }
 
 
+.criticalNumber{
+    color: red;
+}
