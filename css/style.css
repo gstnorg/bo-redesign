@@ -342,6 +342,12 @@ span.iconWork-communication{
     border: 0px solid #0d0079;
     
 }
+table.bluehead .theadBgInner{
+    background: #0d0079;
+    color:#fff;
+    border: 0px solid #0d0079;
+    
+}
 .usertable .usertable{
     width: 70%;
     margin: 0 auto;
@@ -479,4 +485,98 @@ span.iconWork-communication{
 
 .criticalNumber{
     color: red;
+}
+.page{
+    background: #f9f9f9;
+}
+.page{
+    padding: 0 15px !important;
+}
+.page .pagination{
+    margin: 10px 0;
+}
+.datesrch{
+    background: #fffae8;
+    padding: 15px 0px 117px 0;
+}
+
+/* The input start*/
+.cont {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 10px;
+    right: 42px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .cont .input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #fccd22;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .cont:hover .input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .cont .input:checked ~ .checkmark {
+    background-color: #00e523;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .cont .input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .cont .checkmark:after {
+       top: 6px;
+       left: 9px;
+       content: '';
+       width: 5px;
+       height: 10px;
+       border: solid #fff;
+       border-width: 0 2px 2px 0;
+       transform: rotate(45deg);
+  }
+  .dhead{
+    height: 35px;
+}
+.dhead h5{
+    margin: 0;
+    padding: 0;
+}
+  /* The input end*/
+.orcond{
+    position: absolute;
+    top: 38px;
+    left: -26px;
+    font-weight: bold;
 }
