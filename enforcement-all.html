@@ -120,7 +120,7 @@
                     </ol>
                 </div>
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-sm btn-primary pull-right">Back</button>
+                    <button type="button" class="btn btn-sm btn-primary pull-right" onclick="goBack()">Back</button>
                 </div>
             </div>
             
@@ -239,7 +239,7 @@
                     
                 </div>
                 <div class="col-md-6">
-                    <!-- <button type="button" class="btn btn-sm btn-primary pull-right">Back</button> -->
+                    <!-- <button type="button" class="btn btn-sm btn-primary pull-right" onclick="goBack()">Back</button> -->
                 </div>
             </div>
             
@@ -252,17 +252,18 @@
     <script src="./js/scriptjs.js"></script>
     <script>
 
-    $(function () {
+$(function () {
 
-        $('.showBelow').click(function () {
-            $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
-            var data_name= this.name;
-            $("#"+data_name).fadeToggle("slow").siblings('.contentslide').hide("slow");
-        });
+$('.showBelow').click(function () {
+    $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
+    var data_name= this.name;
+    $("#"+data_name).fadeToggle("slow").siblings('.contentslide').hide("slow");
+});
 
-    });
+});
 
-    </script>
+</script>
+    
 </body>
 
 </html>
