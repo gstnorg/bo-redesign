@@ -240,11 +240,9 @@
                             <div class="form-group">
                                 <label for="status">From:</label>
 
-                                <div class="input-group date" data-date-format="dd.mm.yyyy">
-                                    <input  type="text" class="form-control" placeholder="dd.mm.yyyy">
-                                    <div class="input-group-addon" >
-                                      <span class="glyphicon glyphicon-th"></span>
-                                    </div>
+                                <div class="input-group" data-date-format="DD/MM/YYYY">
+                                    <input  type="text" class="form-control" id="datepickerfrom" placeholder="DD/MM/YYYY">
+                                   
                                   </div>
 
                             </div>
@@ -252,11 +250,8 @@
                         <div class="col-sm-12 col-md-4">
                             <div class="form-group">
                                 <label for="status">To:</label>
-                                <div class="input-group date" data-date-format="dd.mm.yyyy">
-                                    <input  type="text" class="form-control" placeholder="dd.mm.yyyy">
-                                    <div class="input-group-addon" >
-                                      <span class="glyphicon glyphicon-th"></span>
-                                    </div>
+                                <div class="input-group" data-date-format="DD/MM/YYYY">
+                                    <input  type="text" class="form-control" id="datepickerto" placeholder="DD/MM/YYYY">
                                   </div>                            </div>
                         </div>
                         <div class="col-sm-12 col-md-4">
@@ -381,7 +376,18 @@
     <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/scriptjs.js"></script>
-
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        $(document).ready(function () {
+            $('#datepickerfrom').datepicker({
+            uiLibrary: 'bootstrap'
+            });
+            $('#datepickerto').datepicker({
+            uiLibrary: 'bootstrap'
+            });
+        });
+    </script>
 </body>
 
 </html>
