@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>BO</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <section class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1><a href="https://gstnorg.github.io/bo-redesign/">Goods & Service Tax</a></h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="dropdown pull-right">
+                        <button class="btn btn-default-one dropdown-toggle" type="button" id="menu1"
+                            data-toggle="dropdown"> Hi
+                            Alexander
+                            <i class="fas fa-user"></i> <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">TaxPayer Profile/360 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Another Link One</a></li>
+                            <li><a href="#">Another Link two</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Taxpayer Communication <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Another Link One</a></li>
+                            <li><a href="#">Another Link two</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">E-way Bill System <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Another Link One</a></li>
+                            <li><a href="#">Another Link two</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">News Items <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Another Link One</a></li>
+                            <li><a href="#">Another Link two</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Help <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Another Link One</a></li>
+                            <li><a href="#">Another Link two</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="bredcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ol class="arrows">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Dashboard</a></li>
+                        <li><a href="work-items.html">Work Items</a></li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-sm btn-primary pull-right" onclick="goBack()">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="firstHeading">
+        <div class="container">
+            <h3>Work Items</h3>
+            <p>Please Select an item to continue</p>
+        </div>
+    </section>
+
+    <section class="workitems">
+        <div class="container">
+            <div class="wells">
+
+                <a href="registration-all.html" class="box-item">
+                    <span class="iconWork-registration"></span>
+                    <span class="text">Registration</span>
+                    <span class="number">(12)</span>
+                </a>
+                <a href="refunds-all.html" class="box-item">
+                    <span class="iconWork-refunds"></span>
+                    <span class="text">Refunds</span>
+                    <span class="number">(45)</span>
+                </a>
+                <a href="#" class="box-item">
+                    <span class="iconWork-assessment"></span>
+                    <span class="text">Assessment</span>
+                    <span class="number">(22)</span>
+                </a>
+                <a href="#" class="box-item">
+                    <span class="iconWork-adjudication"></span>
+                    <span class="text">Adjudication</span>
+                    <span class="number">43</span>
+                </a>
+
+                <a href="#" class="box-item">
+                    <span class="iconWork-recovery"></span>
+                    <span class="text">Recovery</span>
+                    <span class="number">(322)</span>
+                </a>
+
+                <a href="#" class="box-item">
+                    <span class="iconWork-audit"></span>
+                    <span class="text">Audit</span>
+                    <span class="number">(44)</span>
+                </a>
+                <a href="enforcement-all.html" class="box-item">
+                    <span class="iconWork-enforcement"></span>
+                    <span class="text">Enforcement</span>
+                    <span class="number">(312)</span>
+                </a>
+                <a href="#" class="box-item">
+                    <span class="iconWork-appeal"></span>
+                    <span class="text">Appeal</span>
+                    <span class="number">(412)</span>
+
+                </a>
+                <a href="#" class="box-item">
+                    <span class="iconWork-advance"></span>
+                    <span class="text">Advance Rulling</span>
+                    <span class="number">(77)</span>
+                </a>
+                <a href="#" class="box-item">
+                    <span class="iconWork-communication"></span>
+                    <span class="text">Communication from other officers</span>
+                    <span class="number">(77)</span>
+
+                </a>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="firstHeading">
+        <div class="container">
+            <h3>Services</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="acc">
+                        <div>
+                            <input type="radio" name="size" id="a0" value="a0" checked="checked" />
+                            <label for="a0" class="tp"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" id="a1" value="a1" />
+                            <label for="a1" class="ja"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" id="a2" value="a2" />
+                            <label for="a2" class="io"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="size" id="11a" value="11a" />
+                            <label for="11a" class="ql"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="size" id="11b" value="11b" />
+                            <label for="11b" class="mm"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="size" id="11c" value="11c" />
+                            <label for="11c" class="rw"></label>
+                            <article>
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Taxpayer Account
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion02" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne02">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion02"
+                                        href="#collapseOne02" aria-expanded="true" aria-controls="collapseOne02">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Jurisdictional Admin
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne02" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne02">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion03" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne03">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion03"
+                                        href="#collapseOne03" aria-expanded="true" aria-controls="collapseOne03">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Internal/Official
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne03" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne03">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion04" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne04">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion04"
+                                        href="#collapseOne04" aria-expanded="true" aria-controls="collapseOne04">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Quick Links
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne04" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne04">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion05" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne05">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion05"
+                                        href="#collapseOne05" aria-expanded="true" aria-controls="collapseOne05">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Miscellaneous
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne05" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne05">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group" id="accordion06" role="tablist" aria-multiselectable="false">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne06">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion06"
+                                        href="#collapseOne06" aria-expanded="true" aria-controls="collapseOne06">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Related Websites
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne06" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingOne06">
+                                <div class="panel-body">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">Find GSTIN</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Update Authorised
+                                            Signatory</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Block/Unblock
+                                            Credit</a>
+                                        <a href="#" class="list-group-item list-group-item-action">Record Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h3 class="mt40">Profile Details</h3>
+            <div class="panel panel-default-border">
+                <table class="table table-bordered usertable">
+                    <thead class="theadBg">
+                        <tr>
+                            <th>Username</th>
+                            <th>Name of State</th>
+                            <th>Name of Tax Official</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Dipt.Commissioner0724</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Mr Kumar Vivek</td>
+                            <td><a href="#">DSC Registration</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <h3 class="mt40">Roles and Jurisdictions currently assigned to the official</h3>
+            <div class="panel panel-default-border">
+                <table class="table table-bordered table-hover table-striped usertable">
+                    <thead class="theadBg">
+                        <tr>
+                            <th>Role Type</th>
+                            <th>Jurisdiction</th>
+                            <th>Zone</th>
+                            <th>Ward</th>
+                            <th>Effective Start Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Approval Of Registration</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Lacknow</td>
+                            <td>East UP</td>
+                            <td>01/16/2019</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Administrator role</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Lacknow</td>
+                            <td>East UP</td>
+                            <td>01/16/2019</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Analyst Role</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Lacknow</td>
+                            <td>East UP</td>
+                            <td>01/16/2019</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Approval Of Registration</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Lacknow</td>
+                            <td>East UP</td>
+                            <td>01/16/2019</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">General Role</th>
+                            <td>Uttar Pradesh</td>
+                            <td>Lacknow</td>
+                            <td>East UP</td>
+                            <td>01/16/2019</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 class="mt40">News</h3>
+            <div class="row info-panel">
+                <div class="col-md-6">
+                    <div class="newssec">
+                        <div class="news-img">
+                            <img src="./images/news.jpg" alt="news image">
+                        </div>
+                        <div class="news-txt">
+                            <h4>Decrypting the good for GST</h4>
+                            <p>While the Goods & Services Tax has come a long way
+                                in the last 33 months, it still needs painstaking attention
+                            </p>
+                            <span>12/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="newssec">
+                        <div class="news-img">
+                            <img src="./images/news2.jpg" alt="news image">
+                        </div>
+                        <div class="news-txt">
+                            <h4>Centre Releases Another Rs 34,000</h4>
+                            <p>Centre Releases Another Rs 34,000 Cr GST Compensation To States, More Soon
+                            </p>
+                            <span>12/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="newssec">
+                        <div class="news-img">
+                            <img src="./images/news3.jpg" alt="news image">
+                        </div>
+                        <div class="news-txt">
+                            <h4>Late fee or penalty for late filing</h4>
+                            <p>Taxpayers with an annual turnover of less than Rs 5 crore need not pay interest, late fee
+                                or penalty for late filing of GST returns.
+                            </p>
+                            <span>12/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="newssec">
+                        <div class="news-img">
+                            <img src="./images/news4.jpg" alt="news image">
+                        </div>
+                        <div class="news-txt">
+                            <h4>The due date of GSTR-1</h4>
+                            <p>The due date of GSTR-1 and GSTR-3B for February, March and April 2020 is extended to the
+                                last week of June 2020.
+                            </p>
+                            <span>12/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scriptjs.js"></script>
+
+</body>
+
+</html>
