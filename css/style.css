@@ -678,3 +678,115 @@ form.acc div:last-child article { margin-right: 0; }
 
 
 form.acc div > input:checked ~ article { width: 65%; opacity: 1; }
+
+.dif-link{
+    display: flex;
+}
+i[class^="icon-s-"]{
+    display: inherit;
+    height: 90px;
+    width: 75px;
+    background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+.dif-link .icon-s-of-das{
+    background: url(./../images/of-das-s.png) no-repeat center;
+}
+.dif-link .icon-s-co-dat{
+    background: url(./../images/co-dat-s.png) no-repeat center;
+}
+.dash .db:hover[data-id^='Compliance-and-Data-Analysis'] .icon-co-dat{
+    background: url(./../images/co-dat-w.png) no-repeat center;
+    background-size: 90px 83px;
+}
+.icon-s-wo-ite{
+    background: url(./../images/wo-ite-s.png) no-repeat center;
+}
+.dash .db:hover[data-id^='work-items'] .icon-wo-ite{
+    background: url(./../images/wo-ite-w.png) no-repeat center;
+    background-size: 90px 83px;
+}
+.dash .db:hover[data-id=Compliance-and-Data-Analysis] .icon-co-dat{
+    background: url(./../images/co-dat-w.png) no-repeat center;
+    background-size: 90px 83px;
+}
+.icon-of-das{
+    background: url(./../images/of-das.png) no-repeat center;
+}
+.dash .db:hover[data-id=Officers-Dsashboard] .icon-of-das{
+    background: url(./../images/of-das-w.png) no-repeat center;
+    background-size: 90px 83px;
+}
+.icon-s-mi-rep{
+    background: url(./../images/mi-rep-s.png) no-repeat center;
+}
+.dash .db:hover[data-id^='MIS-Reports'] .icon-mi-rep{
+    background: url(./../images/mi-rep-w.png) no-repeat center;
+    background-size: 90px 83px;
+}
+
+.dif-link h5{
+    font-size: 16px;
+    margin: 28px 0 0 0;
+}
+.dif-link {
+    position: relative;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px 0px #ccc;
+  }
+  .dif-link.active {
+background: #f2fcfb;
+    box-shadow: 0px 1px 4px 0px #fccd22;
+  }
+  .dif-link.active h5 {
+      font-weight: bold;
+  }
+  .dif-link:hover {
+    background: #f2fcfb;
+    box-shadow: 0px 1px 4px 0px #fccd22;
+    cursor: pointer;
+  }
+  .dif-link.active::after{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      margin-left: -0.5em;
+      bottom: -1.1em;
+      left: 50%;
+      box-sizing: border-box;
+      
+      border: .6em solid black;
+      border-color: transparent transparent #fff #fff;
+      
+      transform-origin: 0 0;
+      transform: rotate(-45deg);
+      
+      box-shadow: -3px 3px 3px 0 #fccd22;
+    }
+
+
+    .notification-add .icn-n{
+        display: block;
+        padding:11px;
+        position: relative;
+    }
+    .notification-add .icn-n:hover{
+        background: #20639b;
+    }
+    .notification-add .icn-n .shadow{
+        display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 31px;
+    background: red;
+    height: 15px;
+    /* width: 15px; */
+    font-size: 10px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    line-height: 11px;
+    padding: 2px;
+    }
